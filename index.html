@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Arden Residences | Kilimani, Nairobi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero">
+    <p class="brand">The Arden</p>
+    <h1>Live above Kilimani, <br>on your own terms.</h1>
+    <p class="sub">Forty-two residences with rooftop pool, backup power and 24/7 security. Handover December 2027.</p>
+    <a href="#visit" class="btn">Book a site visit</a>
+  </header>
+
+  <section class="facts">
+    <div><strong>KES 9.5M</strong><span>1-bedrooms from</span></div>
+    <div><strong>42</strong><span>residences</span></div>
+    <div><strong>10%</strong><span>deposit, 24-month plan</span></div>
+  </section>
+
+  <section class="units">
+    <h2>Choose your layout</h2>
+    <div class="tabs">
+      <button class="tab active" data-type="1">1 Bedroom</button>
+      <button class="tab" data-type="2">2 Bedroom</button>
+      <button class="tab" data-type="3">3 Bedroom</button>
+    </div>
+    <div class="unit-card">
+      <img id="u-img" src="images/1bedroom.jpeg" alt="1 bedroom interior">
+      <div>
+        <h3 id="u-title">1 Bedroom</h3>
+        <p id="u-size">58 sqm</p>
+        <p class="price" id="u-price">From KES 9,500,000</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2>The building and interiors</h2>
+    <div class="grid">
+      <img src="images/download - 2026-10-12T130633.507.jpeg" alt="Building exterior">
+      <img src="images/Modern Living Room_ Sleek, Cozy & Chic.jpeg" alt="Living room">
+      <img src="images/17 Contemporary Rooftop Pool Design Ideas for Retreats.jpeg" alt="Rooftop pool">
+      <img src="images/download - 2026-10-12T130117.807.jpeg" alt="Kitchen">
+    </div>
+  </section>
+
+  <section class="visit" id="visit">
+    <h2>See it in person</h2>
+    <p>Pick a time and we will confirm on WhatsApp.</p>
+    <form id="visit-form">
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="tel" id="phone" placeholder="Phone number" required>
+      <input type="date" id="date" required>
+      <button type="submit" class="btn">Request visit</button>
+    </form>
+  </section>
+
+  <footer>The Arden Residences &copy; 2026</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
